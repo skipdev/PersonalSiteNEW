@@ -24,10 +24,10 @@
 }
 .button--secondary {
   color: white;
-  background-color: #999999;
+  background-color: #9f9f9f;
 }
 .button--plain {
-  color: #999999;
+  color: #9f9f9f;
   background-color: transparent;
 }
 .button__label {
