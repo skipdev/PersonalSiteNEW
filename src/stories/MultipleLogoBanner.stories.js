@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { MultipleLogoBanner } from './MultipleLogoBanner';
 
 export default {

@@ -6,10 +6,9 @@
   src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'), url(https://fonts.gstatic.com/s/balsamiqsans/v2/P5sEzZiAbNrN8SB3lQQX7Pnc8dk.ttf) format('truetype');
 }
 .MultipleLogoBanner {
-  width: 100%;
+  max-width: 100%;
   padding: 1em;
   max-height: 15em;
-  background: #dedede;
 }
 .MultipleLogoBanner__flex_wrapper {
   display: flex;
@@ -20,11 +19,15 @@
 .MultipleLogoBanner__flex_wrapper .MultipleLogoBanner__image_wrapper {
   height: 3em;
   width: 13%;
+  margin: 0 0.5em;
   align-self: center;
 }
 .MultipleLogoBanner__flex_wrapper .MultipleLogoBanner__image_wrapper img {
   height: 100%;
   width: 100%;
+}
+.MultipleLogoBanner .MultipleLogoBanner__companies {
+  background: #dedede;
 }
 .MultipleLogoBanner .MultipleLogoBanner__companies .MultipleLogoBanner__image_wrapper {
   height: 6em;

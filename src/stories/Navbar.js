@@ -3,9 +3,6 @@ import PropTypes from 'prop-types';
 import './navbar.css';
 import { Button } from './Button';
 
-/**
- * Primary UI component for user interaction
- */
 export const Navbar = ({ label, ...props }) => {
   return (
       <navbar
@@ -17,7 +14,8 @@ export const Navbar = ({ label, ...props }) => {
           <Button label={'About me'} type={'plain'}/>
           <Button label={'Timeline'} type={'plain'}/>
           <Button label={'Work'} type={'plain'}/>
-          <Button label={'Contact me'} type={'primary'}/>
+          <Button label={'Contact me'} type={'plain'}/>
+          <Button label={'Download CV'} type={'primary'}/>
       </navbar>
   );
 };

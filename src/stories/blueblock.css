@@ -5,12 +5,14 @@
   font-display: swap;
   src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'), url(https://fonts.gstatic.com/s/balsamiqsans/v2/P5sEzZiAbNrN8SB3lQQX7Pnc8dk.ttf) format('truetype');
 }
-.navbar {
-  display: flex;
-  flex-direction: row;
-  margin-right: 2em;
+.BlueBlock {
+  background-color: #50E0FF;
+  width: 110%;
+  position: fixed;
+  height: max-content;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  z-index: -1;
+  left: -1em;
 }
-.navbar Button {
-  padding: 1em;
-}
-/*# sourceMappingURL=navbar.css.map */
+/*# sourceMappingURL=blueblock.css.map */

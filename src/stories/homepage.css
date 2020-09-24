@@ -5,12 +5,19 @@
   font-display: swap;
   src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'), url(https://fonts.gstatic.com/s/balsamiqsans/v2/P5sEzZiAbNrN8SB3lQQX7Pnc8dk.ttf) format('truetype');
 }
-.navbar {
+.homepage {
   display: flex;
-  flex-direction: row;
-  margin-right: 2em;
+  flex-direction: column;
+  overflow-x: hidden;
 }
-.navbar Button {
-  padding: 1em;
+.homepage__navbar {
+  align-self: flex-end;
 }
-/*# sourceMappingURL=navbar.css.map */
+.homepage__intro {
+  margin-top: 5%;
+}
+.homepage__mlb {
+  margin-top: 8%;
+  align-self: center;
+}
+/*# sourceMappingURL=homepage.css.map */
