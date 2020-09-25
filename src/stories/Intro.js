@@ -22,7 +22,7 @@ export const Intro = () => {
       </div>
       <div className={'intro__right'}>
         <div className={'intro__image_wrapper'}>
-          <img src={profile} alt={'cartoon image of Skip Barden'}/>
+          <img src={profile} alt={'cartoon drawing of Skip Barden'}/>
         </div>
       </div>
     </div>

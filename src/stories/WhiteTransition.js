@@ -1,6 +1,6 @@
 import React from 'react';
 import whiteTransition from '../transition.png';
-import whiteTransitionUpsideDown from '../transition_upsidedown.png';
+// import whiteTransitionUpsideDown from '../transition_upsidedown.png';
 import './whitetransition.css';
 import PropTypes from "prop-types";
 import {Button} from "./Button";

@@ -9,6 +9,7 @@
   max-width: 100%;
   padding: 1em;
   max-height: 15em;
+  height: 4em;
 }
 .MultipleLogoBanner__flex_wrapper {
   display: flex;
@@ -17,7 +18,7 @@
   align-items: center;
 }
 .MultipleLogoBanner__flex_wrapper .MultipleLogoBanner__image_wrapper {
-  height: 3em;
+  height: 50%;
   width: 13%;
   margin: 0 0.5em;
   align-self: center;
@@ -30,7 +31,8 @@
   background: #dedede;
 }
 .MultipleLogoBanner .MultipleLogoBanner__companies .MultipleLogoBanner__image_wrapper {
-  height: 6em;
+  height: 4em;
+  max-height: 70%;
   width: 20%;
   align-self: center;
 }
