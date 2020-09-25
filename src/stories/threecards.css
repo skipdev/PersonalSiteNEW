@@ -5,11 +5,15 @@
   font-display: swap;
   src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'), url(https://fonts.gstatic.com/s/balsamiqsans/v2/P5sEzZiAbNrN8SB3lQQX7Pnc8dk.ttf) format('truetype');
 }
-.whiteTransition {
-  width: 110%;
-  left: -1em;
-  height: auto;
-  position: absolute;
-  margin-top: -1px;
+.threecards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
-/*# sourceMappingURL=whitetransition.css.map */
+.threecards .card__wrapper {
+  width: 20%;
+  height: 11em;
+}
+/*# sourceMappingURL=threecards.css.map */

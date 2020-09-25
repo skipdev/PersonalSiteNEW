@@ -2,17 +2,17 @@ import React from 'react';
 import './multiplelogobanner.css';
 import PropTypes from "prop-types";
 
-import FreshRelevanceLogo from '../freshrelevance.png';
-import RareloopLogo from '../rareloop.png';
-import ThreeSidedCubeLogo from '../3sidedcube.jpg';
+import FreshRelevanceLogo from '../images/freshrelevance.png';
+import RareloopLogo from '../images/rareloop.png';
+import ThreeSidedCubeLogo from '../images/3sidedcube.jpg';
 
-import ThorntonsLogo from '../thorntons.svg';
-import LloydsPharmacyLogo from '../lloydspharmacy.png';
-import AnnSummersLogo from '../annsummers.png';
-import FatFaceLogo from '../fatface.png';
-import MoltonBrownLogo from '../moltonbrown.png';
-import RipCurlLogo from '../ripcurl.png';
-import WhiteStuffLogo from '../whitestuff.png';
+import ThorntonsLogo from '../images/thorntons.png';
+import LloydsPharmacyLogo from '../images/lloydspharmacy.png';
+import AnnSummersLogo from '../images/annsummers.png';
+import FatFaceLogo from '../images/fatface.png';
+import MoltonBrownLogo from '../images/moltonbrown.png';
+import RipCurlLogo from '../images/ripcurl.png';
+import WhiteStuffLogo from '../images/whitestuff.png';
 
 export const MultipleLogoBanner = ({type, ...props}) => (
     <div className={'MultipleLogoBanner'}>

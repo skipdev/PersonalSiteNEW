@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import profile from '../profile.jpg';
+import profile from '../images/profile.jpg';
 import {Button} from "./Button";
 
 export const Intro = () => {

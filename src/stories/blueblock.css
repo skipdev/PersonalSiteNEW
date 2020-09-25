@@ -8,7 +8,7 @@
 .BlueBlock {
   background-color: #50E0FF;
   width: 110%;
-  position: fixed;
+  position: absolute;
   height: max-content;
   padding-top: 5em;
   padding-bottom: 5em;
