@@ -13,6 +13,7 @@ import {ReactComponent as HTMLLogo} from '../../icons/html5.svg';
 import {ImgWithText} from "../ImgWithText/ImgWithText";
 import ProfilePic from "../../images/profile.jpg";
 import {Button} from "../Button/Button";
+import {SocialsBanner} from "../SocialsBanner/SocialsBanner";
 
 export const Homepage = () => {
     return (
@@ -57,7 +58,7 @@ export const Homepage = () => {
             <div className={'homepage__bluewhitetransition'}>
                 <WhiteTransition upsideDown={true}/>
             </div>
-            <div className={'homepage__bluewhitetransition'}>
+            <div className={'homepage__aboutme'}>
                 <ImgWithText
                     txtColor={'white'}
                     imgAlign={'left'}
@@ -70,6 +71,10 @@ export const Homepage = () => {
                     </div>}
                 />
             </div>
+            <div className={'homepage__socialbanner'}>
+                <SocialsBanner/>
+            </div>
+            <div className={'homepage__transition2'}/>
         </div>
     );
 };

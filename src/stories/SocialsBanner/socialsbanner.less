@@ -3,39 +3,36 @@
 .SocialsBanner {
   max-width: 100%;
   padding: 1em;
-  margin-bottom: 2em;
-  max-height: 15em;
   height: 4em;
+  background-color: @blue;
+  border-radius: 35px;
+  //border: solid 2px @grey;
 
   &__flex_wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    height: 100%;
 
     & .SocialsBanner__image_wrapper {
-      height: 50%;
-      width: 13%;
-      margin: 0 .5em;
+      height: 3em;
+      width: 3em;
       align-self: center;
+      border-radius: 10000em;
+      //border: solid 1px white;
+      //background-color: white;
+      display: flex;
+      align-items: center;
+      justify-items: center;
 
-      & img {
-        height: 100%;
-        width: 100%;
-      }
-    }
-  }
-
-  & .SocialsBanner__companies {
-    background: @light-grey;
-
-    & .SocialsBanner__image_wrapper {
-      height: 4em;
-      max-height: 70%;
-      width: 20%;
-      align-self: center;
-      & img {
-        border-radius: 10px;
+      & svg {
+        align-self: center;
+        justify-self: center;
+        margin: 0 auto;
+        & path {
+          stroke: white;
+        }
       }
     }
   }
