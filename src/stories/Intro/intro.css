@@ -6,9 +6,7 @@
   src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'), url(https://fonts.gstatic.com/s/balsamiqsans/v2/P5sEzZiAbNrN8SB3lQQX7Pnc8dk.ttf) format('truetype');
 }
 .intro {
-  font-family: 'Balsamiq Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
-  letter-spacing: 1px;
   width: 90%;
   display: flex;
   flex-direction: row;
@@ -45,17 +43,5 @@
   width: 100%;
   height: 100%;
   border-radius: 100%;
-}
-.intro__xs-text {
-  font-size: 1em;
-}
-.intro__small-text {
-  font-size: 1.5em;
-}
-.intro__medium-text {
-  font-size: 2em;
-}
-.intro__large-text {
-  font-size: 4em;
 }
 /*# sourceMappingURL=intro.css.map */

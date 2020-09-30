@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'), url(https://fonts.gstatic.com/s/balsamiqsans/v2/P5sEzZiAbNrN8SB3lQQX7Pnc8dk.ttf) format('truetype');
+}
+.imgwithtext {
+  font-family: 'Balsamiq Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: xx-large;
+  letter-spacing: 1px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.5em auto;
+}
+.imgwithtext__text {
+  width: 60%;
+}
+.imgwithtext__img {
+  width: 40%;
+}
+.imgwithtext__img img {
+  height: 100%;
+  width: 100%;
+}
+.imgwithtext Button {
+  margin-top: 1em;
+}
+.imgwithtext--white {
+  background-color: white;
+}
+.imgwithtext--blue {
+  background-color: #50e0ff;
+}
+.imgwithtext--grey {
+  background-color: #9f9f9f;
+}
+.imgwithtext--img-left .imgwithtext__img {
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.imgwithtext--img-left .imgwithtext__text,
+.imgwithtext--img-left Button {
+  text-align: right;
+  float: right;
+}
+.imgwithtext--img-right .imgwithtext__img {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+.imgwithtext--img-right .imgwithtext__text,
+.imgwithtext--img-right Button {
+  text-align: left;
+  float: left;
+}
+/*# sourceMappingURL=imgwithtext.css.map */

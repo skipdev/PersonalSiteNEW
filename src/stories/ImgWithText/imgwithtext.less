@@ -1,0 +1,63 @@
+@import "../assets/variables.less";
+
+.imgwithtext {
+  font-family: 'Balsamiq Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: xx-large;
+  letter-spacing: 1px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: .5em auto;
+
+  &__text {
+    width: 60%;
+  }
+
+  &__img {
+    width: 40%;
+    & img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  & Button {
+    margin-top: 1em;
+  }
+
+  &--white {
+    background-color: white;
+  }
+
+  &--blue {
+    background-color: @blue;
+  }
+
+  &--grey {
+    background-color: @grey;
+  }
+
+  &--img-left {
+    & .imgwithtext__img {
+      align-self: flex-start;
+      justify-self: flex-start;
+    }
+    & .imgwithtext__text, Button {
+      text-align: right;
+      float: right;
+    }
+  }
+
+  &--img-right {
+    & .imgwithtext__img {
+      align-self: flex-end;
+      justify-self: flex-end;
+    }
+    & .imgwithtext__text, Button {
+      text-align: left;
+      float: left;
+    }
+  }
+}

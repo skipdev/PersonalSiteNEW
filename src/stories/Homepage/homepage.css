@@ -44,4 +44,23 @@
   color: white;
   background: #50e0ff;
 }
+* {
+  font-family: 'Balsamiq Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.xxs-text {
+  font-size: 0.65em;
+}
+.xs-text {
+  font-size: 1em;
+}
+.small-text {
+  font-size: 1.5em;
+}
+.medium-text {
+  font-size: 2em;
+}
+.large-text {
+  font-size: 4em;
+}
 /*# sourceMappingURL=homepage.css.map */
