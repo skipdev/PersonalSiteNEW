@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'), url(https://fonts.gstatic.com/s/balsamiqsans/v2/P5sEzZiAbNrN8SB3lQQX7Pnc8dk.ttf) format('truetype');
+}
+.SocialsBanner {
+  max-width: 100%;
+  padding: 1em;
+  margin-bottom: 2em;
+  max-height: 15em;
+  height: 4em;
+}
+.SocialsBanner__flex_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.SocialsBanner__flex_wrapper .SocialsBanner__image_wrapper {
+  height: 50%;
+  width: 13%;
+  margin: 0 0.5em;
+  align-self: center;
+}
+.SocialsBanner__flex_wrapper .SocialsBanner__image_wrapper img {
+  height: 100%;
+  width: 100%;
+}
+.SocialsBanner .SocialsBanner__companies {
+  background: #dedede;
+}
+.SocialsBanner .SocialsBanner__companies .SocialsBanner__image_wrapper {
+  height: 4em;
+  max-height: 70%;
+  width: 20%;
+  align-self: center;
+}
+.SocialsBanner .SocialsBanner__companies .SocialsBanner__image_wrapper img {
+  border-radius: 10px;
+}
+/*# sourceMappingURL=socialsbanner.css.map */
